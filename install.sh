@@ -1,4 +1,4 @@
-sudo rm /usr/local/bin/php-switch-scripts -rf
+rm /usr/local/bin/php-switch-scripts -rf
 git clone https://github.com/rapidwebltd/php-switch-scripts.git
 cd php-switch-scripts/
 bash setup.sh
