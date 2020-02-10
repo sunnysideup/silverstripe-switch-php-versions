@@ -1,13 +1,20 @@
-# how to install:
+# what it does:
 
-1. run bash script:
-2. edit 
+switch PHP versions with a simple command from anywhere:
 
 ```shell
-if [ $# -eq 0 ]
-  then
-    echo "Please supply the php version you would like to switch to as an argument."
-else
-   bash ./php-switch-scripts/switch-to-php-$1.sh
-fi
+php-switch 7.3
 ```
+
+OR 
+
+```shell
+php-switch 7.1
+```
+
+
+# how to install:
+
+1. git clone / composer install this project
+2. copy bash script (install.sh) anywhere
+3. run install.sh as `root`
