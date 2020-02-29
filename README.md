@@ -15,6 +15,10 @@ php-switch 7.1
 
 # how to install:
 
-1. git clone / composer install this project
-2. copy bash script (install.sh) anywhere
-3. run install.sh as `root`
+1. git clone this project
+2. type: 
+```shell
+sudo bash silverstripe-switch-php-versions/install.sh`
+```
+
+Bob still is your uncle. 
