@@ -18,7 +18,7 @@ php-switch 7.1
 1. git clone this project
 2. type: 
 ```shell
-sudo bash silverstripe-switch-php-versions/install.sh`
+sudo bash silverstripe-switch-php-versions/install.sh
 ```
 
 Bob still is your uncle. 
