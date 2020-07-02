@@ -5,11 +5,11 @@ bash setup.sh
 cd ..
 mv php-switch-scripts /usr/local/bin/
 cat <<EOT >> /usr/local/bin/php-switch
-if [ $# -eq 0 ]
+if [ \$# -eq 0 ]
   then
     echo "Please supply the php version you would like to switch to as an argument."
 else
-   bash /usr/local/bin/php-switch-scripts/switch-to-php-$1.sh
+   bash /usr/local/bin/php-switch-scripts/switch-to-php-\$1.sh
 fi
 EOT
 chmod +x /usr/local/bin/php-switch
