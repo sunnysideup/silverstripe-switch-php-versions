@@ -20,5 +20,5 @@ php-switch 7.1
 ```shell
 sudo bash silverstripe-switch-php-versions/install.sh
 ```
-
+3. `rm silverstripe-switch-php-versions -rf`
 Bob still is your uncle. 
