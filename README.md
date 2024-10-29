@@ -3,19 +3,19 @@
 switch PHP versions with a simple command from anywhere:
 
 ```shell
-php-switch 7.3
+php-switch 8.3
 ```
 
 OR 
 
 ```shell
-php-switch 7.1
+php-switch 7.4
 ```
 
 
 # how to install:
 
-1. git clone this project:
+1. git clone this project anywhere suitable
 ```shell
 git clone https://github.com/sunnysideup/silverstripe-switch-php-versions.git
 ```
